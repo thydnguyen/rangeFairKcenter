@@ -52,6 +52,7 @@ def testRangeFlow(centers, closestCenters, distances, classTable, constraints, l
         return returnCenters
     else:
         return False
+    return False 
 
 
 class Dinic:
